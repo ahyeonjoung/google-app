@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from "styled-components";
 import profile from "./assets/profile.jpg";
 import logo from "./assets/google.png";
@@ -29,6 +28,7 @@ margin-top:310px;
   padding-top:15px;
   padding-bottom:15px;
   font-size:15px;
+  background-color:#F2F2F2;
 
 `
 const Footer2 = styled.div`
@@ -38,7 +38,7 @@ const Footer2 = styled.div`
   padding-top:15px;
   padding-bottom:15px;
   font-size:14px;
-
+  background-color:#F2F2F2;
 `
 
 const Center = styled.div`
@@ -55,7 +55,6 @@ const Row = styled.div`
 const Input = styled.div`
 display:flex;
 justify-content:space-around;
-background-color:white;
 margin-top:15px;
 width:550px;
 height:40px;
@@ -96,6 +95,7 @@ const Image = styled.button`
 const Logo = styled.image`
   margin-right:10px;
   margin-top:10px;
+  background:white;
   border: none;
   outline:none;
 `
